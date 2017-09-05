@@ -18,7 +18,7 @@ fs.readFile('index.html', (err, html) => {
 	});
 
 	server.listen( port, hostName, () => {
-		console.log('server listening on ' + port);
+		console.log('server listening on port : ' + port);
 	});
 });
 
